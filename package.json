@@ -1,0 +1,43 @@
+{
+  "name": "roulette-mcp",
+  "version": "0.1.0",
+  "description": "ルーレット機能を提供するModel Context Protocolサーバー",
+  "type": "module",
+  "bin": {
+    "roulette-mcp": "./build/index.js"
+  },
+  "files": [
+    "build",
+    "assets"
+  ],
+  "scripts": {
+    "build": "tsc && node -e \"require('fs').chmodSync('build/index.js', '755')\"",
+    "prepare": "npm run build",
+    "watch": "tsc --watch",
+    "inspector": "npx @modelcontextprotocol/inspector build/index.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "0.6.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.24",
+    "typescript": "^5.3.3"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "roulette",
+    "claude",
+    "ai"
+  ],
+  "author": "makimakima",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/makimakima/roulette-mcp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/makimakima/roulette-mcp/issues"
+  },
+  "homepage": "https://github.com/makimakima/roulette-mcp#readme"
+}
