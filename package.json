@@ -1,6 +1,6 @@
 {
   "name": "roulette-mcp",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "ルーレット機能を提供するModel Context Protocolサーバー",
   "type": "module",
   "bin": {
