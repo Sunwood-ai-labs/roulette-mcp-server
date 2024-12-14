@@ -34,10 +34,10 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/makimakima/roulette-mcp.git"
+    "url": "https://github.com/Sunwood-ai-labs/roulette-mcp-server.git"
   },
   "bugs": {
-    "url": "https://github.com/makimakima/roulette-mcp/issues"
+    "url": "https://github.com/Sunwood-ai-labs/roulette-mcp-server/issues"
   },
-  "homepage": "https://github.com/makimakima/roulette-mcp#readme"
+  "homepage": "https://github.com/Sunwood-ai-labs/roulette-mcp-server#readme"
 }

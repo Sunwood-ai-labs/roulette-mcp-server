@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="./assets/header.svg" alt="Roulette MCP Header" width="800">
+  <img src="https://raw.githubusercontent.com/Sunwood-ai-labs/roulette-mcp-server/master/assets/header.svg" alt="Roulette MCP Header" width="800">
 </div>
 
 # 🎲 Roulette MCP
@@ -16,7 +16,7 @@
 ## 🚀 インストール
 
 ```bash
-npm install @makimakima/roulette-mcp
+npm install roulette-mcp
 ```
 
 ## 💻 使用方法
@@ -28,7 +28,7 @@ MCPサーバーとして使用する場合：
   "mcpServers": {
     "roulette": {
       "command": "npx",
-      "args": ["@makimakima/roulette-mcp"],
+      "args": ["roulette-mcp"],
       "env": {}
     }
   }
